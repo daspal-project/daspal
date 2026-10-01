@@ -15,6 +15,8 @@
 
 This python project presents a set of tools for **Distibuted Acoustic Sensing (DAS) data processing and analysis**. It aims to leverage on existing widely used python libraries within the geoscience community, mainly [Xarray](https://docs.xarray.dev/en/stable/index.html) and [Dask](https://docs.dask.org/en/stable/), for efficient reading, processing and visualization of DAS data. `daspal` offers easily scalable DAS data analysis tools that be ran on simple laptop and HPC clusters, even cloud computing environments with Xarray and Dask integrated compatibility with could-native data formats such as [Zarr](https://zarr.readthedocs.io/en/stable/).
 
+The package's documentation can be found [here](https://daspal.readthedocs.io/en/stable/).
+
 ---
 
 ## Installation
