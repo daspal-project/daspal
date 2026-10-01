@@ -1,0 +1,61 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "daspal"
+#dynamic = ["version"]
+version = "0.0.1a2"
+description = 'Package for reading and processing DAS data built around Xarray and Dask'
+readme = "README.md"
+requires-python = ">=3.10"
+license = "GPL-3.0-or-later"
+keywords = []
+authors = [
+  { name = "Florian Le Pape", email = "florian.le.pape@ifremer.fr" },
+  { name = "Gwenaël CAËR", email = "gwenael.caer@data-terra.org"}
+]
+
+dependencies = [
+	"numpy",
+	"pandas",
+	"scipy",
+	"xarray",
+	"dask",
+	"distributed",
+	"matplotlib",
+	"h5py",
+	"zarr",
+	"datashader",
+	"holoviews",
+	"obspy"]
+
+[project.optional-dependencies]
+# Dependencies for running notebooks locally
+notebook = ["ipykernel",
+	"jupyterlab",
+	"jupyter_bokeh"]
+
+# Dependencies for visualizing dask dashboard and running notebooks on a server with JupyterHub
+notebook_server = [
+	"batchspawner",
+	"dask-labextension",
+	"ipykernel",
+	"jupyterhub",
+	"jupyterlab"]
+
+# Dependencies for building the documentation
+docs = [
+	"sphinx",
+	"myst-parser",
+	"myst-nb",
+	"sphinx-inline-tabs",
+	"sphinx_design",
+	"pydata-sphinx-theme",
+	"furo",
+	"nbsphinx"]
+
+
+[tool.hatch.version]
+path = "src/daspal/__about__.py"
+

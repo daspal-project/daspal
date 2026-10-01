@@ -1,0 +1,16 @@
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# Python cache
+__pycache__/
+*.py[cod]
+_dev
+
+# Jupyter notebook checkpoints
+**/.ipynb_checkpoints
+
+# Documentation
+docs/_autosummary
+docs/_build
