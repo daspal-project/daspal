@@ -36,9 +36,9 @@ In order to get familiar with some of the modules to read, process and visualize
 * [`Channel_spectrograms.ipynb`](https://github.com/daspal-project/daspal/tree/master/docs/examples/Channel_spectrograms.ipynb)
 * [`Working_with_Zarr_data_format.ipynb`](https://github.com/daspal-project/daspal/tree/master/docs/examples/Working_with_Zarr_data_format.ipynb)
 
-The notebooks are also rendered in the [online documentation](https://daspal.readthedocs.io/en/latest/examples/).
+The notebooks are also rendered in the [online documentation](https://daspal.readthedocs.io/en/stable/examples/).
 
-The data used by the notebooks is described in [DAS data sample](https://daspal.readthedocs.io/en/latest/getting_started.html#getting-the-sample-data).
+The data used by the notebooks is described in [DAS data sample](https://daspal.readthedocs.io/en/stable/getting_started.html#getting-the-sample-data).
 
 
 ---
@@ -53,7 +53,7 @@ The data used by the notebooks is described in [DAS data sample](https://daspal.
 
 We welcome contributions of all kinds: bug fixes, new features, or improvements to documentation.
 
-For more information, see our [Development page](https://daspal.readthedocs.io/en/latest/development).
+For more information, see our [Development page](https://daspal.readthedocs.io/en/stable/development).
 
 ---
 
