@@ -1,12 +1,10 @@
 import daspal.instr.optodas as optodas
 import daspal.instr.dasproc as dasproc
 import daspal.instr.dxs as dxs
-import daspal.instr.apsensing as apsensing
 
 INSTRUMENTS = {
     "optodas": optodas.optodasInstr,
     "dxs": dxs.dxsInstr,
-    "apsensing": apsensing.apsensingInstr,
     "dasproc": dasproc.dasprocInstr
     
 }
