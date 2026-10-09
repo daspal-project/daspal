@@ -9,19 +9,13 @@
 
 import os
 import sys
-from pathlib import Path
-import tomllib
 
 sys.path.insert(0, os.path.abspath("../src"))
-
-pyproject_path = Path(__file__).resolve().parent.parent / "pyproject.toml"
-with open(pyproject_path, "rb") as f:
-    project_config = tomllib.load(f)
 
 project = 'daspal'
 copyright = '2026, Florian Le Pape'
 author = 'Florian Le Pape'
-release = project_config["project"]["version"]
+#release = '0.0.2'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
