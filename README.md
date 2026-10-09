@@ -38,16 +38,16 @@ In order to get familiar with some of the modules to read, process and visualize
 * [`Channel_spectrograms.ipynb`](https://github.com/daspal-project/daspal/tree/master/docs/examples/Channel_spectrograms.ipynb)
 * [`Working_with_Zarr_data_format.ipynb`](https://github.com/daspal-project/daspal/tree/master/docs/examples/Working_with_Zarr_data_format.ipynb)
 
-The notebooks are also rendered in the [online documentation](https://daspal.readthedocs.io/en/stable/examples/).
+The notebooks are also rendered in the online documentation [here](https://daspal.readthedocs.io/en/stable/examples/).
 
-The access to the data used by the notebooks is described in [DAS data sample](https://daspal.readthedocs.io/en/stable/getting_started.html#getting-the-sample-data).
+The access to the data used by the notebooks is described and accessible [here](https://daspal.readthedocs.io/en/stable/getting_started.html#getting-the-sample-data).
 
 
 ---
 
 ## License
 
-`daspal` is distributed under the terms of the [GPL-3.0-or-late](hhttps://spdx.org/licenses/GPL-3.0-or-later.htm) license.
+`daspal` is distributed under the terms of the [GPL-3.0-or-late](https://spdx.org/licenses/GPL-3.0-or-later.html) license.
 
 ---
 
@@ -55,7 +55,7 @@ The access to the data used by the notebooks is described in [DAS data sample](h
 
 We welcome contributions of all kinds: bug fixes, new features, or improvements to documentation.
 
-For more information, see our [Development page](https://daspal.readthedocs.io/en/stable/development).
+For more information, see our [development page](https://daspal.readthedocs.io/en/stable/development.html).
 
 ---
 
