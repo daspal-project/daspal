@@ -36,7 +36,7 @@ In order to get familiar with some of the modules to read, process and visualize
 * [`Reading_and_processing_data.ipynb`](https://github.com/daspal-project/daspal/tree/master/docs/examples/Reading_and_processing_data.ipynb)
 * [`Lazy_data_pipeline.ipynb`](https://github.com/daspal-project/daspal/tree/master/docs/examples/Lazy_data_pipeline.ipynb)
 * [`Channel_spectrograms.ipynb`](https://github.com/daspal-project/daspal/tree/master/docs/examples/Channel_spectrograms.ipynb)
-* [`Working_with_Zarr.ipynb`](https://github.com/daspal-project/daspal/tree/master/docs/examples/Working_with_Zarr.ipynb)
+* [`Working_with_zarr.ipynb`](https://github.com/daspal-project/daspal/tree/master/docs/examples/Working_with_zarr.ipynb)
 
 The notebooks are also rendered in the online documentation [here](https://daspal.readthedocs.io/en/stable/examples/).
 
