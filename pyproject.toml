@@ -5,7 +5,7 @@ build-backend = "hatchling.build"
 [project]
 name = "daspal"
 #dynamic = ["version"]
-version = "0.0.2"
+version = "0.0.3"
 description = 'Package for reading and processing DAS data built around Xarray and Dask'
 readme = "README.md"
 requires-python = ">=3.10"
