@@ -142,6 +142,10 @@ class optodasInstr(base.Instr):
            - Ensures continuity along the fiber and avoids artificial jumps from phase wrapping.
         integrate: Integrates strain rate to obtain cumulative strain.
            - option to use spatial unwrapping before to avoid propagating wrapped artifacts.
+
+        Notes:
+        Processing approach adapted from simpleDAS (https://github.com/ASN-Norway/simpleDAS),
+        including the parameters described in simpleDAS/src/simpledas/simpleDASreader.py.
         """
 
         dataarray = xarr.copy()
