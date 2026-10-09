@@ -23,6 +23,6 @@ python -m pip install git+https://github.com/daspal-project/daspal.git@devel
 
 DAS data to be used with the notebooks are accessible at the link below:
 
-[data access](https://www.seanoe.org/preview/120046)
+[OMAC 10 min DAS data sample access](https://sextant.ifremer.fr/Donnees/Catalogue#/metadata/85a5cfc4-4bec-4f0a-97c4-d6fed88d9fb3)
 
 Unpack the archive into a folder of your choice, and modify the notebooks' path to the data accordingly.
