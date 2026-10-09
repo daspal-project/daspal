@@ -40,7 +40,7 @@ In order to get familiar with some of the modules to read, process and visualize
 
 The notebooks are also rendered in the [online documentation](https://daspal.readthedocs.io/en/stable/examples/).
 
-The data used by the notebooks is described in [DAS data sample](https://daspal.readthedocs.io/en/stable/getting_started.html#getting-the-sample-data).
+The access to the data used by the notebooks is described in [DAS data sample](https://daspal.readthedocs.io/en/stable/getting_started.html#getting-the-sample-data).
 
 
 ---

@@ -19,10 +19,12 @@ To install the latest development version from source:
 python -m pip install git+https://github.com/daspal-project/daspal.git@devel
 ```
 
-## DAS data sample 
+## DAS data sample access
 
-DAS data to be used with the notebooks are accessible at the link below:
+DAS data to be used with the notebooks is described here : [OMAC 10 min DAS data sample](https://sextant.ifremer.fr/Donnees/Catalogue#/metadata/85a5cfc4-4bec-4f0a-97c4-d6fed88d9fb3), and can be directly accessed via the command below:
 
-[OMAC 10 min DAS data sample access](https://sextant.ifremer.fr/Donnees/Catalogue#/metadata/85a5cfc4-4bec-4f0a-97c4-d6fed88d9fb3)
+```bash
+wget -r -np -nH "https://data-sextant.ifremer.fr/OMAC_10min_sample/"
+```
 
-Unpack the archive into a folder of your choice, and modify the notebooks' path to the data accordingly.
+Then modify in the notebooks the path to the data accordingly.
